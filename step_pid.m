@@ -8,9 +8,11 @@ function [y,x] = step_pid(varargin)
     % using funtion handle, state space and transfer function are accepted.
     % The controlled variable must be the first state.
     %
-    % [y,t,x] = step_pid(sys,t,Kp,Ki,Kd,N,R)
+    % Syntax
     %
-    % [y,t,x] = step_pid(sys,t,Kp,Ki,Kd,N,R,S)
+    % [y,x] = step_pid(sys,t,Kp,Ki,Kd,N,R)
+    %
+    % [y,x] = step_pid(sys,t,Kp,Ki,Kd,N,R,S)
     %
     % Input Arguments:
     %
@@ -24,7 +26,7 @@ function [y,x] = step_pid(varargin)
     %
     % R - Step amplitude
     %
-    % S - Number of state varibles (Only for sys=function handle)
+    % S - Number of state variables (Only for sys=function handle)
     %
     % Output Arguments:
     %
