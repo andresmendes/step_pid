@@ -1,8 +1,8 @@
 [![View step_pid on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/92363-step_pid)
 # step_pid
-Simulation of a PID controlled system for a reference step input. Input arguments are process dynamics and PID parameters. Output parameters are step reponse data and state trajectories.
+Simulation of a PID controlled system for a reference step input. Input arguments are process dynamics and PID parameters. Output parameters are step response data and state trajectories.
 
-This function is an extension of the conventional step function designed to simulate closed loop systems. Process dynamics defined using funtion handle, state space and transfer function are accepted. The controlled variable must be the first state.
+This function is an extension of the conventional step function designed to simulate closed loop systems. Process dynamics defined using function handle, state space and transfer function are accepted. The controlled variable must be the first state.
 
 **Syntax**
 
