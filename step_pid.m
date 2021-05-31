@@ -5,8 +5,8 @@ function [y,x] = step_pid(varargin)
     %
     % This function is an extension of the conventional step function
     % designed to simulate closed loop systems. Process dynamics defined
-    % using function handle, state space and transfer function are accepted.
-    % The controlled variable must be the first state.
+    % using function handle, state space model and transfer function are 
+    % accepted. The controlled variable must be the first state.
     %
     % Syntax
     %
